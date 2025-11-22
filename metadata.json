@@ -1,0 +1,5 @@
+{
+  "name": "Generic Quiz Platform",
+  "description": "A dynamic quizzing platform that loads questions from a JSON array, providing interactive feedback, hints, and explanations for each answer. It tracks user scores and presents a summary at the end.",
+  "requestFramePermissions": []
+}

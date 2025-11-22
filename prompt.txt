@@ -1,0 +1,16 @@
+I am preparing for an exam.
+I want you to help me prepare for the exam.
+I will provide you with the lecture slides  and I want you to generate questions from the content on each topic. The questions should be multiple choice and have a hint and explaination. Try to make the explaination enough that I can understand the mathematical calculations behind the answer and the concept as well.
+Provide me a JSON array of 50 questions on the attached topics. The JSON format should be as follows:
+{
+"question": "What is the primary goal of dimensionality reduction?",
+"options": [
+"To add more features to a dataset to make it more complex.",
+"To find a good lower-dimensional representation of a high-dimensional dataset.",
+"To ensure all data points are as far apart from each other as possible.",
+"To convert a dataset into a 1-dimensional array."
+],
+"answer": "To find a good lower-dimensional representation of a high-dimensional dataset.",
+"explanation": "Dimensionality reduction (DR) aims to reduce the number of features (dimensions) of a dataset from a high number p to a lower number d (where d < p). The goal is to do this while preserving as much of the meaningful information or structure from the original data as possible.",
+"hint": "The name itself describes the core objective: reducing the number of dimensions."
+},
